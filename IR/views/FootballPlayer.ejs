@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootballPlayer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="searchfield">
+        <input type="text" id="searchInput" placeholder="Search for Football Player">
+        <button type="submit" id="searchButton"><i class='bx bx-search'></i></button>
+    </div>
+
+    <ul>
+      <% player.forEach(p => { %>
+        <li><strong>Name:</strong> <%= p.Name %></li>
+      <% }); %>
+    </ul>
+</body>
+</html>

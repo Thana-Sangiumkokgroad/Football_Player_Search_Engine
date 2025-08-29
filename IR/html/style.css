@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #0000006c;
+    border: solid #dddddd20 2px;
+}
+.form strong{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 40px;
+    color: #dddddd;
+}
+.form #groupname{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #eeff00;
+}
+.form img{
+    height: 20px;
+    width: 20px;
+    color: #eeff00;
+}
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form input[type="text"] {
+    background-color: #007bff20;
+    width: 700px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #dddddd;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #dddddd;
+}
+form input[type="text"]::placeholder{
+    color: #dddddd;
+}
+form input[type="text"]:hover,
+form input[type="text"]:focus {
+    width: 800px;
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 12px 18px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
